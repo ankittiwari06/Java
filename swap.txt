@@ -1,0 +1,13 @@
+class A { 
+   public static void main(String[] p)
+ { 
+int a,b,temp;
+a=10;
+b=50;
+temp=a;
+a=b;
+b=temp;
+System.out.println("The swapped values are"+a+" "+b);
+
+   }
+}

@@ -1,0 +1,11 @@
+class Command
+{
+static public void main(string...ar)
+{
+int a=Integer.parseInt(ar[0]);
+int b=Integer.parseInt(ar[1]);
+int c=Integer.parseInt(ar[2]);
+int d=a*b*c;
+System.out.println(d);
+}
+}

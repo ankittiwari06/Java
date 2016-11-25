@@ -1,0 +1,9 @@
+import java.io.Printstream
+class First
+{
+public static void main(String techno[])
+{
+printstream out;
+out.println();
+}
+}

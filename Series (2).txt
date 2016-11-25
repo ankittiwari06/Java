@@ -1,0 +1,10 @@
+class A { 
+   public static void main(String[] p)
+ { 
+int i;
+for(i=0; i<=9; i++)
+{
+System.out.println(i);
+}
+   }
+}

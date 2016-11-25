@@ -1,0 +1,26 @@
+import java.utill.scanner;
+class Area
+{
+  public static void main(String...ar)
+   {
+     float PI = 3.14f;
+           scanner s =new scanner(system.in);
+           
+          System.out.println("Enter the radius of circle");
+     float radius = s.nextFloat();
+     float area_of_circle = PI*r*r;
+           System.out.println(area_of_circle);
+           
+           System.out.println("Enter the length & breadth of rectangle");
+     int length = s.nextInt();
+     int breadth = s.nextInt();
+     int area_of_rectangle = length*breadth;
+           System.out.println(area_of_rectangle);  
+
+           System.out.println("Enter base & hieght of traingle);
+     int base = s.nextInt();
+     int hieght = s.nextInt();
+     float area_of_traingle =(1/2)*base*hieght;
+          System.out.println(area_of_traingle);
+   }
+}

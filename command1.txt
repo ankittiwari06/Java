@@ -1,0 +1,12 @@
+class Command
+{
+public static void main(String ar[])
+{
+int a=Integer.parseInt(ar[0]);
+float b=Float.parseFloat(ar[1]);
+string c=ar[2];
+System.out.println(a);
+System.out.println(b);
+System.out.println(c);
+}
+}
